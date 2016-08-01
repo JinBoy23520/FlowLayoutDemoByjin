@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#E1E6F6"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tag_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16.0dip"
+        android:text="渠道管理："
+        android:textSize="16.0sp" />
+    <com.example.jinboy.flowlayoutdemobyjin.Flowlayout
+        android:id="@+id/tag_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="20dp">
+    </com.example.jinboy.flowlayoutdemobyjin.Flowlayout>
+
+    <Button
+        android:id="@+id/btn_sure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="添加"
+        />
+
+</LinearLayout>  

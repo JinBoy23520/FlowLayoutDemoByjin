@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+    <TextView
+	    android:id="@+id/text"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:padding="20dp"
+	    android:layout_margin="4dp"
+        android:background="@drawable/tag_text_bg"
+	    android:textSize="14sp"
+	     />
+	    
+    <TextView
+        android:id="@+id/delete_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:padding="3dp"
+        android:visibility="gone"
+        android:textColor="#1a1414"
+        android:text="X"
+        android:layout_gravity="top|right"
+
+        />
+
+</FrameLayout>
